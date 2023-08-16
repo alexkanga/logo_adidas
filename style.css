@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.class1{
+    background-color: #f23e40;
+    width: 40px;
+    height:80px ;
+    margin-right: 10px;
+    margin-bottom: 33px;
+    transform: rotate(-30deg);
+}
+
+.class2{
+    background-color: #f23e40;
+    width: 40px;
+    height:110px ;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    transform: rotate(-30deg);
+}
+
+.class3{
+    background-color: #f23e40;
+    width: 40px;
+    height:150px ;
+    /* margin-right: 10px; */
+    margin-bottom: 100px;
+    transform: rotate(-30deg);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    position: relative ;
+    background-color: #000;
+    margin: 0 auto;
+}
+.adidas{
+    color:#f23e40;
+    font-size:4.87rem;
+   position: absolute ;
+   background-color: black;
+   top:120px;
+   left:38px;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   margin: 0;
+   padding: 0 !important;
+   display: inline-block;
+   line-height: 75%;
+}
